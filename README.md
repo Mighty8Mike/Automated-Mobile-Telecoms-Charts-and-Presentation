@@ -1,8 +1,6 @@
 # Final Python Project
 The project is part of CyberPro Data Analyst Program 2. The key objective of the project is to show the ability to process data by using Numpy and Pandas in Python VS Code to process dataframes and to generate visuals in Matplotlib and Seaborn. The secondary objective (though it would be the primary objective otherwise) is to demonstrate the analytic ability to interpret the results and to summarize these in a presentation with the results pushed to Git Hub.  
 
-A common prejudice is that someone dealing with budgets or code starting from a high-tech manager, shareholder, an accountant, an auditor, a financial planner, a programmer, or a data analyst is completely uncapable of interpreting any results or making any business decisions outside of or beyond their budget or Python code, respectively. Our objective is to prove that otherwise within the python and analytic scope of this project. 
-
 
 ## Project Description
 This project analyzes mobile telecommunications indicators for voice services only across regions and income groups in the 137 countries and aggregate regional or income group across the world for 2008-2023. The database itself is larger but the countries with a lot of data unavailable and years prior to 2008 and 2004 were exclueded from the anlysis deliberately to comparability and avoid further technical issus with finding and interpreting comparable data. 
@@ -71,3 +69,4 @@ The analysis on the following slides is based only on mobile voice data, for sho
 
 
 > Created as part of the Cyberpro Data Analyst Program.
+
