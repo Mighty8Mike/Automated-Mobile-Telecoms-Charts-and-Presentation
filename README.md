@@ -42,7 +42,7 @@ The analysis on the following slides is based only on mobile voice data, for sho
 - Additional key indicators including Market Size and Penetration Rate 
 - Dynamic chart creation (line, bar, stacked diagram, 100% stacked diagram, pie, scatter plot)
 - Chart preview on a screen for visibility to decise, which slides might be used for which slide 
-- Compilation and saving of slides. The Project was designed to handle 4 automated PowerPoint slide layouts generation - 1. Title/Divider, 2. Executive Summary/Conclusions, 3. 2-chart layout and 3-slide layout. That was sufficient for the purposes of the Project. The textboxes wer left blank to be fillled in in POwerPoint directly because it is more practical. 
+- Compilation and saving of slides. The Project was designed to handle 4 automated PowerPoint slide layouts generation - 1. Title/Divider, 2. Executive Summary/Conclusions, 3. 2-chart layout and 3-slide layout. That was sufficient for the purposes of the Project. The textboxes wer left blank to be fillled in in PowerPoint directly because it is more practical. 
 - Compilation and editing of PowerPoint presentations, including compiling slides in to a newly saved pptx presentation or adding slides to an existing presentation.  
 
 
@@ -69,6 +69,7 @@ The analysis on the following slides is based only on mobile voice data, for sho
 
 
 > Created as part of the Cyberpro Data Analyst Program.
+
 
 
 
