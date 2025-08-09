@@ -1,5 +1,5 @@
 # Python Project - Dataset Pre-Processing, Automated Making of Charts, Slides and PowerPoint Presentations
-The project is part of CyberPro Data Analyst Program 2. The key objective of the project is to show the ability to process data by using Numpy and Pandas in Python VS Code to process dataframes and to generate visuals in Matplotlib and Seaborn. The secondary objective (though it would be the primary objective otherwise) is to demonstrate the analytic ability to interpret the results and to summarize these in a presentation with the results pushed to Git Hub.  
+The project is part of CyberPro Data Analyst Program 2. The key objective of the project is to show the ability to process data by using Numpy and Pandas in Python VS Code to process dataframes and to generate visuals in Matplotlib and Seaborn. The other objective  is to demonstrate the analytic ability to interpret the results and to summarize these in a presentation with the results pushed to Git Hub.  
 
 
 ## Project Description
@@ -69,5 +69,6 @@ The analysis on the following slides is based only on mobile voice data, for sho
 
 
 > Created as part of the Cyberpro Data Analyst Program.
+
 
 
