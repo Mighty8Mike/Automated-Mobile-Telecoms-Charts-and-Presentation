@@ -50,7 +50,7 @@ The analysis on the following slides is based only on mobile voice data, for sho
 - The golden era of mobile voice market was mainly completed growth till 2012 shifting to data and messengers from 2013 and on 
 - Despite the common expectation for the analyzed market phase the growth of subscribers leads to the decline of mobile voice market, however, it means that revenues shift to data and media market segments 
 - Part of revenues was also lost to social media and mobile apps driving EBITDA margins from the peaks of 52%-58% (higher than FAANGS) down to 32%-38% range 
-- Mobile operators are seeking for new content- and service- based growth models to avoid becoming a data traffic pipeline with quite varying but still limited success (from negative to within 10% EBITDA margin effect)
+- Mobile operators are seeking for new content- and service- based growth models to avoid becoming a data traffic pipeline with quite varying but still limited success (from negative to within 8% at max EBITDA margin effect)
 - Mobile penetration rates exceeded 100% in most countries due to business voice communications, where businesses and employees have additional SIM cards  
 - Less developed emerging markets started the shift towards data before the market saturation due to apparent cost savings 
 - For the future of mobile communications market data, media and value chain segments have to be taken into the analysis but they were not in the scope of this presentation  
@@ -69,6 +69,7 @@ The analysis on the following slides is based only on mobile voice data, for sho
 
 
 > Created as part of the Cyberpro Data Analyst Program.
+
 
 
 
