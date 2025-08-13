@@ -9,7 +9,6 @@ BASE_PATH = os.path.dirname(os.path.abspath(__file__))
 EXCEL_PATH = os.path.join(BASE_PATH, "formatted_for_sbrn.xlsx")
 CHARTS_PATH = os.path.join(BASE_PATH, 'Charts')
 SLIDES_PATH = os.path.join(BASE_PATH, 'Slides')
-BASE_PATH = os.path.dirname(os.path.abspath(__file__))
 PRESENTATIONS_PATH = os.path.join(BASE_PATH, 'Presentations')
 
 
@@ -99,3 +98,4 @@ def main():
 # Guard main execution
 if __name__ == "__main__":
     main()
+
