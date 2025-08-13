@@ -122,9 +122,11 @@ def create(df, charts_path):
 
     base_colors = ["#C00000", "#FF6600", "#203864"]
     shades = (
-        light_palette("#C00000", 5, reverse=True)[1:] +
-        dark_palette("#FF6600", 5, reverse=True)[1:] +
-        light_palette("#203864", 5, reverse=True)[1:]
+        sns.light_palette("#C00000", n_colors=6, reverse=True)[1:] +  # Lighter shades of red
+        sns.light_palette("#FF6600", n_colors=6, reverse=False)[1:] + # Lighter shades of orange
+        sns.light_palette("#203864", n_colors=6, reverse=True)[1:]  # Lighter shades of blue
+        
+        
     )
     full_colors = base_colors + [to_hex(c) for c in shades]
 
@@ -228,30 +230,73 @@ def create(df, charts_path):
     elif chart_type == "scatter":
         ax = sns.scatterplot(data=combined_chart_data, x="Year", y="Value", hue="Hue", palette=palette_dict)
     elif chart_type == "pie":
+        if len(selected_indicators) != 1:
+            print("❌ Pie chart supports only one indicator at a time.")
+            return
+
         pie_year = selected_years[0]
         pie_data = combined_chart_data[combined_chart_data["Year"] == pie_year]
+
+        if pie_data.empty:
+            print("❌ No data available for selected year and indicator.")
+            return
+
         pie_data_grouped = pie_data.groupby("Hue")["Value"].sum().sort_values(ascending=False)
-        total = pie_data_grouped.sum()
-        percentages = (pie_data_grouped / total) * 100
+
+        if pie_data_grouped.empty:
+            print("❌ No data to plot after grouping.")
+            return
+
         colors = [palette_dict.get(hue, "#999999") for hue in pie_data_grouped.index]
-        fig, ax = plt.subplots(figsize=(10, 10))
-        wedges, _ = ax.pie(pie_data_grouped, startangle=90, colors=colors, wedgeprops=dict(width=0.5))
-        texts = []
-        for wedge, label, pct in zip(wedges, pie_data_grouped.index, percentages):
-            angle = (wedge.theta2 + wedge.theta1) / 2
-            x = math.cos(math.radians(angle))
-            y = math.sin(math.radians(angle))
-            ha = 'left' if x > 0 else 'right'
-            text = ax.text(x * 1.3, y * 1.3, f"{label}\n{pct:.1f}%", ha=ha, va='center', fontsize=13)
-            ax.annotate('', xy=(x * 0.7, y * 0.7), xytext=(x * 1.25, y * 1.25),
-                        arrowprops=dict(arrowstyle="-", color='gray', lw=1.0,
-                                        connectionstyle="angle3,angleA=0,angleB=90"))
-            texts.append(text)
-        adjust_text(texts, expand_text=(1.05, 1.2), arrowprops=dict(arrowstyle="-", color='gray'))
-        ax.set_title(f"{selected_indicators[0]} in {pie_year}", fontsize=22)
-        ax.axis('equal')
+
+        # Build combined labels: Name + Value%
+        total = pie_data_grouped.sum()
+        combined_labels = [
+            f"{name} {value / total:.1%}"  # Name and percentage in one string
+            for name, value in zip(pie_data_grouped.index, pie_data_grouped)
+        ]
+
+        # Build combined labels: Name + Value%
+        total = pie_data_grouped.sum()
+        combined_labels = [
+            f"{name} {value / total:.1%}"  # Name and percentage in one string
+            for name, value in zip(pie_data_grouped.index, pie_data_grouped)
+        ]
+
+        fig, ax = plt.subplots(figsize=(14, 6))
+
+        rotation_angle = 30  # try values like 100, 110, 120 for best spread
+
+        pie_result = ax.pie(
+            pie_data_grouped,
+            labels=combined_labels,       # ✅ Now both name & value are in one label
+            colors=colors,
+            startangle=rotation_angle,  # 🔄 rotate pie
+            # autopct='%1.1f%%',
+            pctdistance=1.15,      # values outside
+            labeldistance=1.25     # push labels further
+        )
+
+        if len(pie_result) == 3:
+            wedges, texts, autotexts = pie_result
+            for autotext in autotexts:
+                autotext.set_fontsize(14)
+                autotext.set_color('black')
+        else:
+            wedges, texts = pie_result
+
+        for t in texts:
+            t.set_fontsize(14)
+
+        # ax.set_title(f"{selected_indicators[0]} in {pie_year}", fontsize=22)
+        ax.axis('equal')  # keep circular
         plt.tight_layout()
-        return  # ✅ Skip legend placement for pie
+
+
+
+
+
+
 
     # --- Y axis formatting
     if chart_type != "pie":
@@ -270,10 +315,10 @@ def create(df, charts_path):
 
     # --- Unified legend placement for all charts except pie
     if chart_type != "pie":
-        ncol = 4 if len(hue_list) > 4 else len(hue_list)
+        ncol = 3 if len(hue_list) > 3 else len(hue_list)
         ax.legend(
-            title="", frameon=False, loc='lower center',
-            bbox_to_anchor=(0.5, -0.35), ncol=ncol,
+            title="", frameon=False, loc='upper center',
+            bbox_to_anchor=(0.5, -0.2), ncol=ncol,
             fontsize='small', handletextpad=0.5,
             columnspacing=1.0, borderaxespad=0.5
         )
