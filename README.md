@@ -30,7 +30,7 @@ The analysis on the following slides is based only on mobile voice data, for sho
 
 ## How to Run
 1. Install dependencies: supporting libraries, which enable the code running are installed in the beginning of each file. If not please reinstall by using pip install <name> or !pip install <name> for Jupiter Notebook 
-2. Run the main script: `python ITU_Main.py`and proceed down the menu. 
+2. Run the main script: `python ITU_Main.py`and proceed down the menu. To create chart you should first input 0 to load the pre-prosessed dataframe ‘formatted_for_sbrn.xlsx’, then 1 to proceed with charts creation. Other menu options can be done without first loading the dataframe. 
 3. Other supporting files should be opend from the same folder and include:
     - ITU_Utilities, which upload the dataframe, and manages charts, slides and presentations operatins including selecting items to be inlcuded on a chosen slide layout and saving those, selecting slides to be compiled into a presentation, adding slides to an existing presentation deleting slides or presentations. The slides and presentations are prepared in pptx format.  
     - Create_Charts: a function to select data for the chosen key indicators, for the selected years on the selected chart types, saving these in the Charts folder and a tool to select those charts in a preview mode to decide which are good to be included into which types of pptx presentation slides. 
@@ -69,6 +69,7 @@ The analysis on the following slides is based only on mobile voice data, for sho
 
 
 > Created as part of the Cyberpro Data Analyst Program.
+
 
 
 
