@@ -27,7 +27,7 @@ def print_menu():
     print("1. Create new charts")
     print("2. Read charts")
     print("3. Prepare slides")
-    print("4. Print slides")
+    print("4. Compile slides into presentations")
     print("5. Delete charts and slides")
     print("6. Exit")
 
@@ -98,4 +98,5 @@ def main():
 # Guard main execution
 if __name__ == "__main__":
     main()
+
 
