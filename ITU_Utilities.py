@@ -37,7 +37,6 @@ CHARTS_PATH = os.path.join(BASE_PATH, 'Charts')
 os.makedirs(CHARTS_PATH, exist_ok=True)
 SLIDES_PATH = os.path.join(BASE_PATH, 'Slides')
 os.makedirs(SLIDES_PATH, exist_ok=True)  
-BASE_PATH = os.path.dirname(os.path.abspath(__file__))
 PRESENTATIONS_PATH = os.path.join(BASE_PATH, 'Presentations')
 os.makedirs(PRESENTATIONS_PATH, exist_ok=True)
 
@@ -649,10 +648,9 @@ def delete():
         print("\nPresentation management options:")
         print("1. Delete Slides from Presentation")
         print("2. Delete Entire Presentation")
-        sub_choice = input("Enter your choice (1 or 3): ").strip()
+        sub_choice = input("Enter your choice (1 or 2): ").strip()
 
-        if sub_choice not in {"1", "2a"
-        "a"}:
+        if sub_choice not in {"1", "2"}:
             print("❌ Invalid option.")
             return
 
@@ -681,7 +679,7 @@ def delete():
             prs.save(pres_path)
             print("✅ Presentation updated.")
 
-        elif sub_choice == "3":
+        elif sub_choice == "2":
             # === Delete Entire Presentation ===
             os.remove(pres_path)
             print(f"✅ Deleted entire presentation: {pres_file}")
