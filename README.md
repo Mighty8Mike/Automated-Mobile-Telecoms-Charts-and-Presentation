@@ -62,6 +62,7 @@ The analysis on the following slides is based only on mobile voice data, for sho
 
 ## Command Line Interface Menu
 Menu:
+
 0. Load dataframe
 1. Create new charts
 2. Read charts
@@ -236,4 +237,5 @@ Please mind that several features including inserting other graphics, changing t
 
 
 > Created as part of the Cyberpro Data Analyst Program.
+
 
