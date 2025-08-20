@@ -23,7 +23,12 @@ New indicators were calculated further in ITU_Utilities –
 1. Market Size (ARPU * Subscribers *12) and
 2. Penetration Rate (Subscribers / Population) 
 
-ITU_Utilities also calculates means for country aggregates classified by income, region and World ARPU and Penetration Rates and also includes the totals for the other country-aggregate indicators 
+ITU_Utilities also calculates means and/or totals for country aggregates classified by 
+1. Country income 
+2. Geographic region and 
+3. World aggregate 
+
+and aggregates for the other indicators both initially available and calculated during dataframe pre-processing.    
 
 The resulting dataframe for further manipulations in ITU_Main, ITU_Utilities and Create_Charts files is available in the file ‘ITU_Mobile_Telecoms‘, was called ‘formatted_for_sbrn’ and is saved in *.xlsx
 
@@ -55,6 +60,155 @@ The analysis on the following slides is based only on mobile voice data, for sho
     That was sufficient for the purposes of the Project. The textboxes were left blank to be fillled in in PowerPoint directly because it is more practical. 
 - Compilation and editing of PowerPoint presentations, including compiling slides in to a newly saved pptx presentation or adding slides to an existing presentation.  
 
+## Command Line Interface Menu
+Menu:
+0. Load dataframe
+1. Create new charts
+2. Read charts
+3. Prepare slides
+4. Compile slides into presentations
+5. Delete charts and slides
+6. Exit
+
+Choose action: 0
+✅ DataFrame loaded and formatted.
+
+Choose action: 1
+
+    Available Indicators:
+    1. ARPU
+    2. Population
+    3. Subscribers
+    4. Market Size
+    5. Penetration Rate
+    Select indicator(s) (e.g., '1,3-4'):
+
+    Available Years:
+    1. 2008
+    ...
+    16. 2023
+    Select years (e.g., 'all', '2008-2013', '2008,2010,2012'):
+
+    Select chart type:
+    1. Line
+    2. Bar
+    3. Stacked Column
+    4. 100% Stacked Column
+    5. Pie
+    6. Scatter
+    Select chart type (1-6 or name):
+
+    Select countries/regions:
+    1. Albania
+    ...
+    137. Zambia
+    138. High-income
+    139. Low-income
+    140. Lower-middle-income
+    141. Upper-middle-income
+    142. Africa
+    143. Americas
+    144. Arab States
+    145. Asia-Pacific
+    146. CIS
+    147. Europe
+    148. World
+    Enter numbers (e.g., 1,3-5):
+
+Choose action: 2 
+Select files from the pop up menu 
+
+Choose action: 3
+    Choose slide layout: 
+    1. Cover Slide
+    2. Executive Summary 
+    3. 2-chart Slide
+    4. 3-chart Slide
+
+Choose action: 4
+
+    Select an option:
+    1. Create a new presentation from selected slides.
+    2. Insert slide(s) into an existing presentation.
+   
+    Enter option number (1 or 2): 1
+
+        Available Slide Files:
+        1. slide_layout_1_1.pptx
+        ...
+        Enter slide numbers in desired order (e.g., 1,2,4-5):
+
+    Enter option number (1 or 2): 2
+
+        Available Presentations:
+        1. Presentation1.pptx
+        2. Presentation2.pptx
+        3. Updated_Presentation3.pptx
+        Select a presentation number to insert into: 3
+
+            Available Slide Files:
+            1. slide_layout_1_1.pptx
+            ...
+            Enter slide numbers to insert (e.g., 1,3-4):
+
+            Enter slide numbers to insert (e.g., 1,3-4): 2
+                Presentation has 11 slides.
+                1. Adjust Title
+                2. Adjust Title
+                3. Adjust Title
+                4. Adjust Title
+                5. Adjust Title
+                6. Adjust Title
+                7. Adjust Title
+                8. Adjust Title
+                9. Adjust Title
+                10. Adjust Title
+                11. Adjust Title
+                Insert after which slide number(s)? (e.g., 2,4):
+
+            Insert after which slide number(s)? (e.g., 2,4): 3
+                ✅ Slides inserted and saved as Updated_Updated_Presentation3.pptx in 'Presentations' folder.
+
+
+Choose action: 5
+    Which folder would you like to manage?
+    1. Charts (\Charts)
+    2. Slides (\Slides)
+    3. Presentations (\Presentations)
+
+    Enter your choice: 3
+        Files in Presentations:
+        1. Presentation1.pptx
+        2. Presentation2.pptx
+        3. Updated_Presentation3.pptx
+        4. Updated_Updated_Presentation3.pptx
+
+        Presentation management options:
+        1. Delete Slides from Presentation
+        2. Delete Entire Presentation
+
+        Enter your choice (1 or 2): 1
+            Select presentation number: 3
+
+            Slides in Updated_Presentation3.pptx:
+            1. Untitled Slide
+            2. Untitled Slide
+            3. Untitled Slide
+            4. Untitled Slide
+            5. Untitled Slide
+            6. Untitled Slide
+            7. Untitled Slide
+            8. Untitled Slide
+            9. Untitled Slide
+            10. Untitled Slide
+            11. Untitled Slide
+            Enter slide numbers to delete (e.g., 1,3-4):
+
+        Enter your choice (1 or 2): 2
+        Select presentation number: 
+
+6. Exit
+
 
 ## Insights
 - The golden era of mobile voice market was mainly completed growth till 2012 shifting to data and messengers from 2013 and on 
@@ -79,6 +233,4 @@ The analysis on the following slides is based only on mobile voice data, for sho
 
 
 > Created as part of the Cyberpro Data Analyst Program.
-
-
 
