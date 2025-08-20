@@ -15,7 +15,7 @@ Zip files are saved and unpacked locally because downloading them from the websi
 
 Data includes 3 dataframes – mobile voice indicators, population and subscribers and country income and regional classification
 
-The dataframes were merged, data for 2003-2008 was deleted due to data unavailability for some indicators, countries with more that one zero except the last year were dropped. The remaining data for 137 countries in incomplete but is quite representative for the objective  
+The dataframes were merged, data for 2003-2008 was deleted due to data unavailability for some indicators, countries with more that one zero except the last year were dropped. The remaining data for 137 countries is incomplete but is quite representative for the objective  
 
 Data for 2004 is mainly missing, so further analysis shows comparable data analysis for 2008-2023 
 
@@ -237,5 +237,6 @@ Please mind that several features including inserting other graphics, changing t
 
 
 > Created as part of the Cyberpro Data Analyst Program.
+
 
 
