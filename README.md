@@ -175,6 +175,7 @@ Choose action: 4
 
 
 Choose action: 5
+
     Which folder would you like to manage?
     1. Charts (\Charts)
     2. Slides (\Slides)
@@ -240,6 +241,7 @@ Please mind that several features including inserting other graphics, changing t
 
 
 > Created as part of the Cyberpro Data Analyst Program.
+
 
 
 
