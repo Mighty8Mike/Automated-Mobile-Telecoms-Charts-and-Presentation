@@ -19,11 +19,11 @@ The dataframes were merged, data for 2003-2008 was deleted due to data unavailab
 
 Data for 2004 is mainly missing, so further analysis shows comparable data analysis for 2008-2023 
 
-New indicators were calculated further in ITU_Utilities – 
+New indicators were calculated further in Create_Charts file – 
 1. Market Size (ARPU * Subscribers *12) and
 2. Penetration Rate (Subscribers / Population) 
 
-ITU_Utilities also calculates means and/or totals for country aggregates classified by 
+Create_Charts file also calculates means and/or totals for country aggregates classified by 
 1. Country income 
 2. Geographic region and 
 3. World aggregate 
@@ -172,7 +172,6 @@ Choose action: 4
 
 Choose action: 5
     Which folder would you like to manage?
-    
     1. Charts (\Charts)
     2. Slides (\Slides)
     3. Presentations (\Presentations)
@@ -237,6 +236,4 @@ Please mind that several features including inserting other graphics, changing t
 
 
 > Created as part of the Cyberpro Data Analyst Program.
-
-
 
