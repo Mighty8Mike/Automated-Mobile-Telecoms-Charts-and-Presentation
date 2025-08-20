@@ -120,7 +120,7 @@ Select files from the pop up menu
 
 Choose action: 3
     Choose slide layout: 
-    1. Cover Slide
+    1. Cover Slide 
     2. Executive Summary 
     3. 2-chart Slide
     4. 3-chart Slide
@@ -233,4 +233,5 @@ Choose action: 5
 
 
 > Created as part of the Cyberpro Data Analyst Program.
+
 
