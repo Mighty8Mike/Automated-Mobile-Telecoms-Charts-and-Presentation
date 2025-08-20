@@ -3,7 +3,7 @@ The project is part of CyberPro Data Analyst Program 2. The key objective of the
 
 
 ## Project Description
-This project is based on a Command Line Interface (CLI) and analyzes mobile telecommunications indicators for voice services only across regions and income groups in the 137 countries and aggregate regional or income group across the world for 2008-2023. The database itself is larger but the countries with a lot of data unavailable and years prior to 2008 and 2004 were exclueded from the anlysis deliberately to comparability and avoid further technical issus with finding and interpreting comparable data. 
+This project is based on a Command Line Interface (CLI) and analyzes mobile telecommunications indicators for voice services across regions and income groups in the 137 countries and aggregate regional or income groups across the world for 2008-2023. The database itself is larger but the countries with a lot of data unavailable and years prior to 2008 and 2004 were exclueded from the anlysis deliberately to comparability and avoid further technical issus with finding and interpreting comparable data. 
 
 The project can be re-applied to other dataframes with a few adjustments for dataframes and types of data. Visualization and presentation can be adjusted and expanded as well. I consider presentation skills in the required professional format apparently cannot be completely replaced by experience in programming skills or by AI, while making presentations by experienced analysts manually can produce a lot better results than the result of this project. Convergent knowledge of both some python and presentation skills is what makes value in this case. Also we decided to abstain from filling-in the slides by GPT because that is where human professionals are still way ahead of AI and high-tech. 
 
@@ -234,6 +234,7 @@ Choose action: 5
 
 
 > Created as part of the Cyberpro Data Analyst Program.
+
 
 
 
