@@ -25,7 +25,7 @@ New indicators were calculated further in ITU_Utilities –
 
 ITU_Utilities also calculates means for country aggregates classified by income, region and World ARPU and Penetration Rates and also includes the totals for the other country-aggregate indicators 
 
-The resulting dataframe for further manipulations in ITU_Main, ITU_Utilities and Create_Charts files is available in the file ‘ITU_Mobile_Telecoms ‘, was called ‘formatted_for_sbrn’ and is saved in *.xlsx
+The resulting dataframe for further manipulations in ITU_Main, ITU_Utilities and Create_Charts files is available in the file ‘ITU_Mobile_Telecoms‘, was called ‘formatted_for_sbrn’ and is saved in *.xlsx
 
 Correlations and regression charts were calculated and plotted in a separate file ITU_Correlations because they have a non-standard layout 
 
@@ -79,4 +79,5 @@ The analysis on the following slides is based only on mobile voice data, for sho
 
 
 > Created as part of the Cyberpro Data Analyst Program.
+
 
