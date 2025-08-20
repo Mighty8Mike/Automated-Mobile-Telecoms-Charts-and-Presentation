@@ -19,7 +19,9 @@ The dataframes were merged, data for 2003-2008 was deleted due to data unavailab
 
 Data for 2004 is mainly missing, so further analysis shows comparable data analysis for 2008-2023 
 
-New indicators were calculated further in ITU_Utilities – 1. Market Size (ARPU * Subscribers *12) and 2.  Penetration Rate (Subscribers / Population) 
+New indicators were calculated further in ITU_Utilities – 
+1. Market Size (ARPU * Subscribers *12) and
+2. Penetration Rate (Subscribers / Population) 
 
 ITU_Utilities also calculates means for country aggregates classified by income, region and World ARPU and Penetration Rates and also includes the totals for the other country-aggregate indicators 
 
@@ -45,7 +47,12 @@ The analysis on the following slides is based only on mobile voice data, for sho
 - Additional key indicators including Market Size and Penetration Rate 
 - Dynamic chart creation (line, bar, stacked diagram, 100% stacked diagram, pie, scatter plot)
 - Chart preview on a screen for visibility to decise, which slides might be used for which slide 
-- Compilation and saving of slides. The Project was designed to handle 4 automated PowerPoint slide layouts generation - 1. Title/Divider, 2. Executive Summary/Conclusions, 3. 2-chart layout and 3-slide layout. That was sufficient for the purposes of the Project. The textboxes wer left blank to be fillled in in POwerPoint directly because it is more practical. 
+- Compilation and saving of slides. The Project was designed to handle 4 automated PowerPoint slide layouts generation -
+    1. Title/Divider,
+    2. Executive Summary/Conclusions,
+    3. 2-chart layout and
+    4. 3-slide layout.
+    That was sufficient for the purposes of the Project. The textboxes were left blank to be fillled in in PowerPoint directly because it is more practical. 
 - Compilation and editing of PowerPoint presentations, including compiling slides in to a newly saved pptx presentation or adding slides to an existing presentation.  
 
 
@@ -72,3 +79,4 @@ The analysis on the following slides is based only on mobile voice data, for sho
 
 
 > Created as part of the Cyberpro Data Analyst Program.
+
