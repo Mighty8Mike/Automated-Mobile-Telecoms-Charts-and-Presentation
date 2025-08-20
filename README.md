@@ -120,8 +120,7 @@ Select files from the pop up menu
 
 Choose action: 3
     Choose slide layout: 
-    
-    1. Cover Slide 
+    1. Cover Slide
     2. Executive Summary 
     3. 2-chart Slide
     4. 3-chart Slide
@@ -222,10 +221,13 @@ Choose action: 5
 
 
 ## What I Learned
-- Processing Dataframes with numpy, pandas ad doing visuals with matplotlib and seaborn. 
-- Automating slide generation with `python-pptx`
+- Processing Dataframes with numpy, pandas and doing visuals with matplotlib and seaborn
+- Creating 6-types of professionally-looking charts (not just Matplotlib) flexibly from a pre-processed dataframe in a matter of a few menu selections 
+- Making standardized slides from the charts in an automated way in a few menu selections with `python-pptx`  
+- Compiling presentations and editing slides in presentations in a few menu selections. 
 - Handling user input via command-line interface (CLI) 
-- Wrapping up th eproject and pushing the results to Git Hub 
+- Wrapping up the project and pushing the results to Git Hub 
+Please mind that several features including inserting other graphics, changing the slide order, printing to pdf or filling-in text by GPT were not included as impractical because these are usually either handled in Microsoft Office or added by a professional more qualified than Chat GPT.  
 
 
 ## Unexpected Trends
@@ -234,8 +236,4 @@ Choose action: 5
 
 
 > Created as part of the Cyberpro Data Analyst Program.
-
-
-
-
 
