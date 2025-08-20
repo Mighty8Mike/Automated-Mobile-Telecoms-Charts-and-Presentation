@@ -1,9 +1,11 @@
-# Python Project - Dataset Pre-Processing, Automated Making of Charts, Slides and PowerPoint Presentations
-The project is part of CyberPro Data Analyst Program 2. The key objective of the project is to show the ability to process data by using Numpy and Pandas in Python VS Code to process dataframes and to generate visuals in Matplotlib and Seaborn. The other objective  is to demonstrate the analytic ability to interpret the results and to summarize these in a presentation with the results pushed to Git Hub.  
+# Python Project
+The project is part of CyberPro Data Analyst Program 2. The key objective of the project is to show the ability to process data by using Numpy and Pandas in Python VS Code to process dataframes and to generate visuals in Matplotlib and Seaborn. The secondary objective (though it would be the primary objective otherwise) is to demonstrate the analytic ability to interpret the results and to summarize these in a presentation with the results pushed to Git Hub.  
 
 
 ## Project Description
-This project analyzes mobile telecommunications indicators for voice services only across regions and income groups in the 137 countries and aggregate regional or income group across the world for 2008-2023. The database itself is larger but the countries with a lot of data unavailable and years prior to 2008 and 2004 were exclueded from the anlysis deliberately to comparability and avoid further technical issus with finding and interpreting comparable data. 
+This project is based on a Command Line Interface (CLI) and analyzes mobile telecommunications indicators for voice services only across regions and income groups in the 137 countries and aggregate regional or income group across the world for 2008-2023. The database itself is larger but the countries with a lot of data unavailable and years prior to 2008 and 2004 were exclueded from the anlysis deliberately to comparability and avoid further technical issus with finding and interpreting comparable data. 
+
+The project can be re-applied to other dataframes with a few adjustments for dataframes and types of data. Visualization and presentation can be adjusted and expanded as well. I consider presentation skills in the required professional format apparently cannot be completely replaced by experience in programming skills or by AI, while making presentations by experienced analysts manually can produce a lot better results than the result of this project. Convergent knowledge of both python and presentation skills is what makes value in this case. Also we decided to abstain from filling-in the slides by GPT because that is where human professionals are still way ahead of AI and high-tech. 
 
 
 ## Data Settings 
@@ -42,7 +44,7 @@ The analysis on the following slides is based only on mobile voice data, for sho
 - Additional key indicators including Market Size and Penetration Rate 
 - Dynamic chart creation (line, bar, stacked diagram, 100% stacked diagram, pie, scatter plot)
 - Chart preview on a screen for visibility to decise, which slides might be used for which slide 
-- Compilation and saving of slides. The Project was designed to handle 4 automated PowerPoint slide layouts generation - 1. Title/Divider, 2. Executive Summary/Conclusions, 3. 2-chart layout and 3-slide layout. That was sufficient for the purposes of the Project. The textboxes wer left blank to be fillled in in PowerPoint directly because it is more practical. 
+- Compilation and saving of slides. The Project was designed to handle 4 automated PowerPoint slide layouts generation - 1. Title/Divider, 2. Executive Summary/Conclusions, 3. 2-chart layout and 3-slide layout. That was sufficient for the purposes of the Project. The textboxes wer left blank to be fillled in in POwerPoint directly because it is more practical. 
 - Compilation and editing of PowerPoint presentations, including compiling slides in to a newly saved pptx presentation or adding slides to an existing presentation.  
 
 
@@ -50,7 +52,7 @@ The analysis on the following slides is based only on mobile voice data, for sho
 - The golden era of mobile voice market was mainly completed growth till 2012 shifting to data and messengers from 2013 and on 
 - Despite the common expectation for the analyzed market phase the growth of subscribers leads to the decline of mobile voice market, however, it means that revenues shift to data and media market segments 
 - Part of revenues was also lost to social media and mobile apps driving EBITDA margins from the peaks of 52%-58% (higher than FAANGS) down to 32%-38% range 
-- Mobile operators are seeking for new content- and service- based growth models to avoid becoming a data traffic pipeline with quite varying but still limited success (from negative to within 8% at max EBITDA margin effect)
+- Mobile operators are seeking for new content- and service- based growth models to avoid becoming a data traffic pipeline with quite varying but still limited success (from negative to within 10% EBITDA margin effect)
 - Mobile penetration rates exceeded 100% in most countries due to business voice communications, where businesses and employees have additional SIM cards  
 - Less developed emerging markets started the shift towards data before the market saturation due to apparent cost savings 
 - For the future of mobile communications market data, media and value chain segments have to be taken into the analysis but they were not in the scope of this presentation  
@@ -69,9 +71,3 @@ The analysis on the following slides is based only on mobile voice data, for sho
 
 
 > Created as part of the Cyberpro Data Analyst Program.
-
-
-
-
-
-
