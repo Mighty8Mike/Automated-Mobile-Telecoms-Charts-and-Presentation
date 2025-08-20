@@ -5,7 +5,7 @@ The project is part of CyberPro Data Analyst Program 2. The key objective of the
 ## Project Description
 This project is based on a Command Line Interface (CLI) and analyzes mobile telecommunications indicators for voice services only across regions and income groups in the 137 countries and aggregate regional or income group across the world for 2008-2023. The database itself is larger but the countries with a lot of data unavailable and years prior to 2008 and 2004 were exclueded from the anlysis deliberately to comparability and avoid further technical issus with finding and interpreting comparable data. 
 
-The project can be re-applied to other dataframes with a few adjustments for dataframes and types of data. Visualization and presentation can be adjusted and expanded as well. I consider presentation skills in the required professional format apparently cannot be completely replaced by experience in programming skills or by AI, while making presentations by experienced analysts manually can produce a lot better results than the result of this project. Convergent knowledge of both python and presentation skills is what makes value in this case. Also we decided to abstain from filling-in the slides by GPT because that is where human professionals are still way ahead of AI and high-tech. 
+The project can be re-applied to other dataframes with a few adjustments for dataframes and types of data. Visualization and presentation can be adjusted and expanded as well. I consider presentation skills in the required professional format apparently cannot be completely replaced by experience in programming skills or by AI, while making presentations by experienced analysts manually can produce a lot better results than the result of this project. Convergent knowledge of both some python and presentation skills is what makes value in this case. Also we decided to abstain from filling-in the slides by GPT because that is where human professionals are still way ahead of AI and high-tech. 
 
 
 ## Data Settings 
@@ -33,7 +33,8 @@ The analysis on the following slides is based only on mobile voice data, for sho
 ## How to Run
 1. Install dependencies: supporting libraries, which enable the code running are installed in the beginning of each file. If not please reinstall by using pip install <name> or !pip install <name> for Jupiter Notebook 
 2. Run the main script: `python ITU_Main.py`and proceed down the menu. To create chart you should first input 0 to load the pre-prosessed dataframe ‘formatted_for_sbrn.xlsx’, then 1 to proceed with charts creation. Other menu options can be run without first loading the dataframe. The menu is intuitive, guides the user through the interface and handles unintended inputs to avoid errors. 
-3. Other supporting files should be opend from the same folder and include:
+3. Data selection is available safely for 2008-2023, but not for 2024, although the dataframe has part of 2024 indicators for some indicators and some countries. For pie charts a single year has to be selected.  
+4. Other supporting files should be opend from the same folder and include:
     - ITU_Utilities, which upload the dataframe, and manages charts, slides and presentations operatins including selecting items to be inlcuded on a chosen slide layout and saving those, selecting slides to be compiled into a presentation, adding slides to an existing presentation deleting slides or presentations. The slides and presentations are prepared in pptx format.  
     - Create_Charts: a function to select data for the chosen key indicators, for the selected years on the selected chart types, saving these in the Charts folder and a tool to select those charts in a preview mode to decide which are good to be included into which types of pptx presentation slides. 
 
@@ -71,4 +72,3 @@ The analysis on the following slides is based only on mobile voice data, for sho
 
 
 > Created as part of the Cyberpro Data Analyst Program.
-
