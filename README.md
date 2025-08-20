@@ -117,9 +117,12 @@ Choose action: 1
     Enter numbers (e.g., 1,3-5):
 
 Choose action: 2 
+
 Select files from the pop up menu 
 
+
 Choose action: 3
+
     Choose slide layout: 
     1. Cover Slide
     2. Executive Summary 
@@ -237,5 +240,6 @@ Please mind that several features including inserting other graphics, changing t
 
 
 > Created as part of the Cyberpro Data Analyst Program.
+
 
 
