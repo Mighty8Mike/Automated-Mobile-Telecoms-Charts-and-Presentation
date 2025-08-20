@@ -118,7 +118,7 @@ Choose action: 1
 
 Choose action: 2 
 
-Select files from the pop up menu 
+    Select files from the pop up menu 
 
 
 Choose action: 3
@@ -240,6 +240,7 @@ Please mind that several features including inserting other graphics, changing t
 
 
 > Created as part of the Cyberpro Data Analyst Program.
+
 
 
 
