@@ -29,7 +29,7 @@ The resulting dataframe for further manipulations in ITU_Main, ITU_Utilities and
 
 Correlations and regression charts were calculated and plotted in a separate file ITU_Correlations because they have a non-standard layout 
 
-The analysis on the following slides is based only on mobile voice data, for shortcut the missing conclusions are provided by the author, because the focus of this is python-based data processing capacity rather than full-scale financial statistics analysis 
+The analysis on the following slides is based only on mobile voice data, for shortcut the missing conclusions are provided by the author without further data support, because the focus of this is python-based data processing capacity rather than full-scale financial statistics analysis 
 
 
 ## How to Run
@@ -79,5 +79,6 @@ The analysis on the following slides is based only on mobile voice data, for sho
 
 
 > Created as part of the Cyberpro Data Analyst Program.
+
 
 
